@@ -1,0 +1,38 @@
+html {
+    background: gainsboro;
+}
+
+h1 {
+    background: linear-gradient(to bottom left,red,blueviolet);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border:2px solid red;
+    border-radius: 5px;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+ul.topnav li a{
+    display: block;
+    padding: 8px 16px;
+    background: #1453ad;
+    text-decoration: none;
+}
+ul.topnav li a:hover {
+    background-color: #14ad53;
+    color: darkmagenta;
+}

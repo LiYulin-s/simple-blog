@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename = "css/index.css")}}">
+        <h1>{{head}}</h1>
+    </head>
+    <title>{{title}}</title>
+    
+    <ul class="topnav">
+        <li><a>Home</a></li>
+        <li><a>Search</a></li>
+        <li><a>Achieve</a></li>
+        <li><a>About</a></li>
+
+    </ul>
+    <body>
+        <div>
+        {{text|safe}}
+        </div>
+    </body>
+
+</html>

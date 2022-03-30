@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import sqlite3
 import uuid
@@ -22,8 +24,8 @@ def index():
                            text=markdown.Markdown)
 
 
-@app.route('/file/<name>')
-def getFile(name):
+@app.route('/files/<name>')
+def files(name):
     sql = 'SELECT * FROM file WHERE name = ?'
     cur.execute(sql, [name])
     callList = cur.fetchall()
